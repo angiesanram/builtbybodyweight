@@ -1,4 +1,7 @@
+markdown: redcarpet
+baseurl: /home
+exclude: ['README.md']
+
 # Sass settings
 sass:
     sass_dir: _sass
-    
