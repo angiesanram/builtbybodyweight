@@ -1,0 +1,4 @@
+# Sass settings
+sass:
+    sass_dir: _sass
+    

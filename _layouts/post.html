@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home-wrap">
+  {% include header.html %}
+  <section class="post-wrap">
+    
+    <h2 class="blog-title">{{ page.title }}</h2>
+
+      <h4 class="summary">{{ page.category }} <span class="date">{{ page.date | date: '%B %d, %Y' }}</span></h4>
+
+      <div class="blog-content">
+        {{ content }}
+      </div>
+
+
+  </section>
+</div>

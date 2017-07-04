@@ -1,0 +1,90 @@
+@mixin clearfix
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+
+
+
+section.blogs
+  background: #C0C0C0
+
+  .home-cta
+    font-size: 28px
+    display: block
+    background: #3d96cb
+    text-align: center
+    text-decoration: none
+    padding: 0.4em 0
+    line-height: 1.25
+    color: white
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2)
+    transition: all 0.15s ease-in-out
+
+
+    &:hover
+      box-shadow: 0px 5px 14px rgba(0,0,0,0.4)
+
+
+
+  .col-1
+    display: flex
+    align-items: center
+
+  .article-wrap
+    margin: -50px 0
+    +clearfix
+
+  .article-thumb
+    display: block
+    background-size: cover
+    background-position: center
+    width: 25%
+    float: left
+    position: relative
+    overflow: hidden
+
+    &::after
+      content: ''
+      display: block
+      padding-top: 100%
+
+  .article-meta
+    position: absolute
+    background: fade-out(#3d96cb, 0.3)
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    color: white
+    padding: 10px
+    transform: translate(0%, 100%) scale(0.5)
+    transition: all 0.3s ease-in-out
+    opacity: 0
+
+    .name
+      font-size: 18px
+      line-height: 1.2
+
+    .date
+      font-style: italic
+
+  .article-thumb:hover .article-meta
+    opacity: 1
+    transform: translate(0%, 0%) scale(1)
+
+  @media (max-width: 640px)
+    .desc-wrap
+      display: block
+      margin-top: 100px
+      max-width: 100%
+
+    .col-1
+      display: block
+      
+      max-width: 100%
+
+  @media (max-width: 999px) and (min-width: 640px)
+    .article-thumb
+      width: 33.3%

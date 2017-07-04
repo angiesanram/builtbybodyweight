@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat')
+$body-font-family: 'Montserrat', sans-serif
+
+html
+  font-family: $body-font-family
+body
+  margin: 0
+
+section.about
+  background:
+    image: url(../images/home-about-image.png)
+    position: center bottom
+    size: cover
+  color: #C0C0C0
+
+  h2
+
+    font-size: 60px
+    font-family:  $body-font-family
+    font-weight: 400
+    line-height: 1
+    margin-left: -60px
+    margin-top: 0
+    margin-bottom: 50px
+    outline-offset: 10px
+    outline-style: solid
+
+
+  .home-lead
+    padding-bottom: 140px
+    padding-left: 30px
+    padding-top: 80px
+    line-height: 1.3
+
+@media (max-width: 640px)
+  section.about
+    h2
+      margin-left: auto
+      margin-right: auto
+      max-width: 300px
+      font-size: 50px
+
+    .home-lead
+      margin-left: auto
+      margin-right: auto
+      max-width: 300px
