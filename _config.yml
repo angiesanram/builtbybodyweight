@@ -1,6 +1,7 @@
 
-baseurl: /builtbybodyweight
+baseurl: /builtbybodyweight/
 exclude: ['README.md']
+destination: ./_site
 
 # Sass settings
 sass:
