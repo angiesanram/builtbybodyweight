@@ -7,7 +7,7 @@
       <div class="article-wrap">
         <!--{% include thumb.html %}-->
         {% for post in site.posts limit: 120 %}
-        <a class="article-thumb"href="{{ site.baseurl }}/{{post.url}}" style="background-image: url(images/thumbnails/{{post.thumbnail}})">
+        <a class="article-thumb"href="{{ post.url | prepend: site.baseurl }}" style="background-image: url(images/thumbnails/{{post.thumbnail}})">
           <div class="article-meta">
             <div class="name">
               {{post.title}}
