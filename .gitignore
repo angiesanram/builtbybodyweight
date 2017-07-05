@@ -1,2 +1,2 @@
-delete_site/
-delete.sass-cache/
+_site/
+.sass-cache/
