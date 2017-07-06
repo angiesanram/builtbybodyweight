@@ -3,33 +3,40 @@ section.home-transformation
 
   .home-lead
     text-align: center
-    font-size: 30px
-    color: #ff4337
+    font-size: $text-size-cta
+    color: $color-primary
 
   .before
-    background-color: yellow
-    background-image: url(../images/transformation-1.png)
+
+    background-image: url(../images/me-before.jpg)
     background-position: center
     background-size: cover
     padding: 50px 0
     height: 450px
-    border-style: solid
+    font-weight: $text-weight-light
+    .home-lead
+      border-style: solid
+      border-width: thin
+
 
 
   .after-background
-    background-color: #aaaeaf
+    background-color: $color-secondary
     width: 50%
 
 
 
   .after
-    background-color: yellow
+
     background-image: url(../images/transformation-2.png)
     background-position: center
     background-size: cover
     padding: 50px 0
     height: 450px
-    border-style: solid
+    font-weight: $text-weight-light
+    .home-lead
+      border-style: solid
+      border-width: thin
 
   p
     position: relative
@@ -37,9 +44,9 @@ section.home-transformation
     text-align: center
 
   .home-cta
-    font-size: 28px
+    font-size: $text-size-cta
     display: block
-    background: #3d96cb
+    background: $color-primary
     text-align: center
     text-decoration: none
     padding: 0.4em 0.4em
@@ -47,5 +54,7 @@ section.home-transformation
     color: white
     box-shadow: 0px 3px 10px rgba(0,0,0,0.2)
     transition: all 0.15s ease-in-out
-
     margin-top: 300px
+
+    &:hover
+      box-shadow: 0px 5px 14px rgba(0,0,0,0.4)

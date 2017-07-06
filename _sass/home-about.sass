@@ -1,24 +1,20 @@
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat')
-$body-font-family: 'Montserrat', sans-serif
-
-html
-  font-family: $body-font-family
 body
   margin: 0
 
 section.about
   background:
-    image: url(../images/home-about-image.png)
-    position: center bottom
+    image: url(../images/outdoor-gym.png)
+    position: center center
     size: cover
-  color: #C0C0C0
+  color: $color-secondary
+  height: 100vh
 
   h2
 
-    font-size: 60px
-    font-family:  $body-font-family
-    font-weight: 400
+    font-size: $text-size-title
+    font-family: $text-family
+    font-weight: $text-weight-regular
     line-height: 1
     margin-left: -60px
     margin-top: 0
@@ -26,6 +22,10 @@ section.about
     outline-offset: 10px
     outline-style: solid
 
+  p
+    font-family: $text-family
+    font-weight: $text-weight-regular
+    font-size: $text-size-subtitle
 
   .home-lead
     padding-bottom: 140px
@@ -39,7 +39,10 @@ section.about
       margin-left: auto
       margin-right: auto
       max-width: 300px
-      font-size: 50px
+      font-size: $text-size-mobile-title
+
+    p
+      font-size: $text-size-mobile-subtitle
 
     .home-lead
       margin-left: auto

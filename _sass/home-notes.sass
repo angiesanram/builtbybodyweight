@@ -1,22 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat')
-$body-font-family: 'Montserrat', sans-serif
 
 section.notes
-  background-color: #ff4337
+  background-color: $color-primary
   color: white
 
   .home-lead
     text-align: center
+    font-size: $text-size-subtitle
 
   .col-1
     padding-left: 30px
-    font-size: 18px
+    font-size: $text-size-thumbnail
     font-style: italic
     line-height: 1.8
 
     &:first-child
       padding-left: 0
-      padding-right: 30px
+      padding-right: 50px
       text-align: right
       border-right: solid 2px white
 
@@ -63,7 +62,7 @@ section.notes
       flex: 2
 
       &:first-child
-        border-right: 4px white solid
+        border-right: 2px white solid
 
         @media(max-width: 640px)
           border-right: none
@@ -80,7 +79,7 @@ section.notes
       height: 60px
       width: 100%
       padding: 0 10px
-      font-size: 18px
+      font-size: $text-size-thumbnail
 
       &:focus
         outline: none
@@ -89,13 +88,13 @@ section.notes
       &[type="submit"]
         flex: 1
         background: white
-        color: blue
-        font-size: 24px
+        color: $color-primary
+        font-size: $text-size-cta
         padding: 0 15px
 
 
     label
       position: absolute
       z-index: 2
-      font-size: 12px
+      font-size: $text-size-label
       left: 10px

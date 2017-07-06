@@ -8,12 +8,12 @@
 
 
 section.blogs
-  background: #C0C0C0
+  background: $color-secondary
 
   .home-cta
-    font-size: 28px
+    font-size: $text-size-cta
     display: block
-    background: #3d96cb
+    background: $color-primary
     text-align: center
     text-decoration: none
     padding: 0.4em 0
@@ -26,7 +26,8 @@ section.blogs
     &:hover
       box-shadow: 0px 5px 14px rgba(0,0,0,0.4)
 
-
+  .home-lead
+    color: $color-primary
 
   .col-1
     display: flex
@@ -52,7 +53,7 @@ section.blogs
 
   .article-meta
     position: absolute
-    background: fade-out(#3d96cb, 0.3)
+    background: fade-out($color-primary, 0.3)
     top: 0
     left: 0
     right: 0
@@ -64,7 +65,7 @@ section.blogs
     opacity: 0
 
     .name
-      font-size: 18px
+      font-size: $text-size-thumbnail
       line-height: 1.2
 
     .date
@@ -82,7 +83,7 @@ section.blogs
 
     .col-1
       display: block
-      
+
       max-width: 100%
 
   @media (max-width: 999px) and (min-width: 640px)

@@ -1,20 +1,78 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat')
-$body-font-family: 'Montserrat', sans-serif
 
 .home-footer
+  background-color: $color-secondary
+  .social-link
+    width: 225px
+    margin: 0 auto
+    padding: 5px
+    padding-top: 15px
+    background-color: $color-secondary
 
-
-  a
-    text-decoration: none
-    color: #ff4337
-    background: #b9b7b6
+  .hide-text
+    text-indent: 100%
+    white-space: nowrap
+    overflow: hidden
     display: block
-    width: 100%
-    line-height: 6
+
+  .ease-all
+    transition: all 400ms ease-in-out
+
+  .social
+    height: 2rem
+    list-style-type: none
+    margin: 0
+    padding: 0
     text-align: center
-    
-    font-weight: 300
+
+
+    li
+      &:last-child a
+        margin-right: 0
+      a
+        display: flex
+        float: left
+        width: 40px
+        height: 40px
+        margin-right: 1em
+        text-align: center
+        align-items: center
+        justify-content: center
+        border-radius: 40px
+        box-shadow: inset 0 0 0 40px white
+        color: $color-secondary
+
+
+        &:hover
+          box-shadow: inset 0 0 0 3px $color-primary
+          color: $color-primary
+
+        i
+
+
+
+
+
+  .footer-text
+    background: $color-secondary
+    color: black
+    font-size: $text-size-label
+    font-weight: $text-weight-light
+    width: 100%
+    margin: 0
+    text-align: center
+    padding-bottom: 10px
+
+  .mailto
+    text-decoration: none
+    color: $color-primary
+    background: $color-secondary
+    display: inline-block
+    width: 100%
+    line-height: 2.5
+    text-align: center
+    font-weight: $text-weight-regular
     transition: background 150ms ease-in-out
 
     &:hover
-      background: darken(#b9b7b6, 8%)
+
+      font-weight: $text-weight-bold
