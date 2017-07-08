@@ -1,27 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat')
-$body-font-family: 'Montserrat', sans-serif
-
-html
-  font-family: $body-font-family
-body
-  margin: 0
-
 
 section.blog-header
+  .flex
+    display: flex
+    flex-direction: row
+    align-items: center
+    color: $color-text-slight-fade
 
-  height: 150px
-  background:
-    height: 250px
-    image: url(../images/blog-header.png)
-    position: center
-    size: cover
-  background-repeat: none
-  align-items: center
+  .flex--center
+    justify-content: center
 
-  h1
-    position: relative
-    text-align: center
-    font-size: 60px
-    margin: 0
-    top: 40%
-    vertical-align: middle
+    h1
+
+      text-align: center
+      font-size: 60px
+      margin: 0
+      top: 40%
+      vertical-align: middle
+      color: $color-text-slight-fade
