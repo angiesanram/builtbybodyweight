@@ -5,7 +5,7 @@ layout: default
 <div class="home-wrap">
   {% include header.html %}
   <section class="post-wrap">
-    
+
     <h2 class="blog-title">{{ page.title }}</h2>
 
       <h4 class="summary">{{ page.category }} <span class="date">{{ page.date | date: '%B %d, %Y' }}</span></h4>
@@ -13,7 +13,9 @@ layout: default
       <div class="blog-content">
         {{ content }}
       </div>
-
+      <div class="blog-footer">
+        {% include footer.html %}
+      </div>
 
   </section>
 </div>
