@@ -41,6 +41,9 @@ section.notes
   p
     margin: 0
 
+  .order-first
+    order: -1
+
   .form-display
     background: rgba(white,0.3)
     border: 2px solid white
@@ -98,3 +101,7 @@ section.notes
       z-index: 2
       font-size: $text-size-label
       left: 10px
+@media(max-width: 640px)
+  .order-first
+    p
+      text-align: justify

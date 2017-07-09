@@ -12,8 +12,15 @@ section.blog-header
     h1
 
       text-align: center
-      font-size: 60px
+      font-size: $text-size-title
       margin: 0
       top: 40%
       vertical-align: middle
       color: $color-text-slight-fade
+
+@media (max-width: 640px)
+  section.blog-header
+    .flex--center
+
+      h1
+        font-size: $text-size-mobile-title

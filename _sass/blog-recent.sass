@@ -4,13 +4,6 @@
     display: table
     clear: both
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat')
-$body-font-family: 'Montserrat', sans-serif
-
-html
-  font-family: $body-font-family
-body
-  margin: 0
 
 
 section.blog-recent
@@ -21,8 +14,8 @@ section.blog-recent
     margin-bottom: 50px
     padding-bottom: 10px
     text-align: center
-    font-size: 30px
-    font-family:  $body-font-family
+    font-size: $text-size-subtitle
+    font-family: $text-family
 
     h3
       font-size: 15px
@@ -88,4 +81,8 @@ section.blog-recent
       width: 25%
 
 
-  @media (max-width: 999px) and (min-width: 640px)
+@media (max-width: 640px)
+  section.blog-recent
+    .blog-page-title
+      h1
+        font-size: $text-size-mobile-subtitle
