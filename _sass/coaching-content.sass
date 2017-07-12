@@ -7,6 +7,7 @@ section.section-coaching-content
 
     h1
       text-align: center
+      padding: 10px
 
   .plans
     height: 100%
@@ -19,14 +20,63 @@ section.section-coaching-content
     vertical-align: middle
 
   .plan
-    width: 300px
+    width: 400px
     margin: 15px
-    height: 300px
-    border: medium solid $color-primary
+    height: 500px
+    border: medium solid $color-secondary
     border-radius: 15px
     align-items: center
     text-align: center
+    box-shadow: 0px 3px 20px rgba(0,0,0,0.5)
+    transition: all 0.15s ease-in-out
 
+    &:hover
+      box-shadow: 0px 3px 40px rgba(0,0,0,0.5)
+      border-color: $color-primary
+      .background
+        h1
+          color: gold
+
+    .background
+      height: 60%
+      border-top-left-radius: 13px
+      border-top-right-radius: 13px
+      background-image: url(../images/12-week-transformation.jpg)
+      background-position: center
+      background-repeat: no-repeat
+      background-size: cover
+
+
+
+      h1
+        padding: 10px
+        margin: 0
+        color: $color-text-slight-fade
+
+    .info
+      height: 40%
+
+
+      p
+        margin: 0
+        padding: 5px
+
+      h4
+        margin: 10px
+
+      h5
+        color: $color-primary
+        font-size: $text-size-cta
+        margin: 0
+        padding: 5px
+
+
+      .list
+        display: inline-block
+        margin-left: auto
+        margin-right: auto
+        li
+          text-align: left
 
 
 
