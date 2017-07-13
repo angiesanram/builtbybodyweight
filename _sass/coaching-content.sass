@@ -1,5 +1,5 @@
 section.section-coaching-content
-  height: 100%
+
 
 
   .coaching-header
@@ -16,16 +16,32 @@ section.section-coaching-content
     height: 100%
     align-items: center
     text-align: center
-    justify-content: center
-    vertical-align: middle
+
+    .twelve-week-trans
+      .background
+        background-image: url(../images/12-week-transformation.jpg)
+
+    .Fat-to-Fit
+      .background
+        background-image: url(../images/coaching-fat_to_fit.jpg)
+
+    .But-Sculper
+      .background
+        background-image: url(../images/coaching-legs_and_but.jpg)
+    .Pure-Muscle
+      .background
+        background-image: url(../images/pure-muscle.png)
+
 
   .plan
     width: 400px
     margin: 15px
+    margin-left: auto
+    margin-right: auto
     height: 500px
     border: medium solid $color-secondary
     border-radius: 15px
-    align-items: center
+
     text-align: center
     box-shadow: 0px 3px 20px rgba(0,0,0,0.5)
     transition: all 0.15s ease-in-out
@@ -41,7 +57,6 @@ section.section-coaching-content
       height: 60%
       border-top-left-radius: 13px
       border-top-right-radius: 13px
-      background-image: url(../images/12-week-transformation.jpg)
       background-position: center
       background-repeat: no-repeat
       background-size: cover
@@ -51,7 +66,7 @@ section.section-coaching-content
       h1
         padding: 10px
         margin: 0
-        color: $color-text-slight-fade
+        color: gold
 
     .info
       height: 40%
@@ -86,8 +101,16 @@ section.section-coaching-content
       display: block
       width: 100%
 
+
+
     .plan
       display: block
       width: 95%
       margin: auto
       margin-bottom: 15px
+      max-width: 400px
+
+
+      .background
+        h1
+          color: gold
