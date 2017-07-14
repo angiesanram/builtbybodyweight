@@ -43,7 +43,7 @@ The answer to this is simple, the body and the mind do not discriminate between 
 
 In order to build muscle the muscles must be provided with a stimulus to grow and over time this stimulus must increase to account for the growth in size and strength of the muscle. Consistent stimuli and overload is what is going to help you build muscle. Now, in a gym this progression is very easy as you can just add more weight to the bar. To build muscle with bodyweight exercises you have to be a little more creative.
 
-Progressive overload using bodyweight exercises can be done by increasing reps and performing a more difficult variation of an exercise. Once your are able to perform a certain number of reps on a given exercise it may longer not be beneficial to keep increasing the reps and therefore a more difficult variation is required.
+Progressive overload using bodyweight exercises can be done by increasing reps and performing a more difficult variation of an exercise. Once your are able to perform a certain number of reps on a given exercise it may no longer be beneficial to keep increasing the reps and therefore a more difficult variation is required.
 
 A more difficult exercise variation will either change the angle to increase the percentage of your bodyweight acting against the muscle or it will change the lever to increase the amount of tension being placed on the muscle. For help with exercise progressions and building muscle, please take a look at my coaching plans.
 
