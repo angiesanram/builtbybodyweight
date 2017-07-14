@@ -27,12 +27,12 @@ This man is a sand digger in Africa, his physique is the result of endless hours
 {:.image-tag}
 This man is an Olympic gymnast who has developed his physique from years of predominantly bodyweight exercise.
 
-![My helpful screenshot1]({{ site.url | append: site.baseurl }}/images/posts/gymnast-muscle.jpg){:class="img-responsive"}
+![My helpful screenshot1]({{ site.url | append: site.baseurl }}/images/Posts/gymnast-muscle.jpg){:class="img-responsive"}
 
 {:.image-tag}
 This woman is a female calisthenics athlete.
 
-![My helpful screenshot1]({{ site.url | append: site.baseurl }}/images/posts/female-calisthenics.jpg){:class="img-responsive"}
+![My helpful screenshot1]({{ site.url | append: site.baseurl }}/images/Posts/female-calisthenics.jpg){:class="img-responsive"}
 
 How is it that these people were able to build such a physique without the use of a gym?
 
