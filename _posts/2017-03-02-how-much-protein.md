@@ -3,11 +3,14 @@ layout: post
 title: How Much Protein?
 thumbnail: photo-2.jpg
 category: Diet
+excerpt_separator: <!--more-->
 ---
 
 
 {:.excerpt}
 The great protein debate, how much protein is really required? This article hopefully addresses this often asked question.
+
+<!--more-->
 
 ![My helpful screenshot1]({{ site.url | append: site.baseurl }}/images/thumbnails/photo-2.jpg){:class="img-responsive"}
 

@@ -21,7 +21,7 @@
       white-space: nowrap
       max-width: 135px
       background:
-        image: url(/images/BuiltByBodyweightCircle.png)
+        image: url({{ post.url | prepend: site.baseurl }}/images/BuiltByBodyweightCircle.png)
         repeat: no-repeat
         position: center
         size: contain
@@ -29,7 +29,7 @@
       padding: 0
       margin: 0
 
-  
+
 
   .site-nav
     ul

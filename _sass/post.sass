@@ -8,29 +8,65 @@ body
   margin: 0
 
 
+
 section.post-wrap
   align-items: center
-  margin-right: auto
-  margin-left: auto
-  width: 70%
+  width: 100%
 
-  .excerpt
-    margin-top: 35px
-    font-size: 16px
-    font-weight: 900
 
+
+
+  .stress
+    font-size: 20px
 
   h2
     text-align: center
-    font-weight: 900
+    font-weight: $text-weight-bold
+    color: $color-text-slight-fade
+    font-size: $text-size-title
 
   h4
     text-align: center
+    color: $color-text-slight-fade
+
 
   p
     text-align: center
+    margin: auto
+    width: 70%
+    max-width: 700px
+    margin-bottom: 10px
 
   .blog-content
+
+    .excerpt
+      margin-top: 35px
+      font-size: $text-size-subtitle
+      font-weight: $text-weight-regular
+      text-align: center
+      margin-bottom: 15px
+      color: $color-text-slight-fade
+
+    .image-tag
+      margin-bottom: 0
+
+    .centre
+      text-align: center
+      display: block
+      margin-left: auto
+      margin-right: auto
+
+    .colour
+      color: $color-primary
+
+    .website-link
+      font-size: $text-size-subtitle
+      text-align: center
+      display: block
+      margin-left: auto
+      margin-right: auto
+      text-decoration: none
+
 
     p
       text-align: justify
@@ -39,4 +75,7 @@ section.post-wrap
 
   .img-responsive
     width: 100%
-    margin-bottom: 35px
+
+  .blog-footer
+    width: 100% !important
+    max-width: 2000px !important
