@@ -22,7 +22,7 @@ Just take a moment to appreciate the muscular development of the individuals dep
 {:.image-tag}
 This man is a sand digger in Africa, his physique is the result of endless hours of lifting sand from the bottom of the river into a boat.
 
-![My helpful screenshot1]({{ site.url | append: site.baseurl }}/images/posts/sand-digger.jpg){:class="img-responsive"}
+![My helpful screenshot1]({{ site.url | append: site.baseurl }}/images/Posts/sand-digger.jpg){:class="img-responsive"}
 
 {:.image-tag}
 This man is an Olympic gymnast who has developed his physique from years of predominantly bodyweight exercise.
